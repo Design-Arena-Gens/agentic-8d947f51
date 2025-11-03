@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji; background: #0b1020; color: #e7eaf6; }
+.container { max-width: 900px; margin: 0 auto; padding: 32px 20px; }
+.card { background: #131a33; border: 1px solid #24315e; border-radius: 14px; padding: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.25); }
+.h1 { font-size: 28px; margin: 0 0 8px; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+.row { display: flex; gap: 16px; }
+.grid { display: grid; gap: 16px; }
+.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.input, textarea, select { width: 100%; background: #0c132b; border: 1px solid #2d3a6b; color: #e7eaf6; padding: 10px 12px; border-radius: 10px; }
+label { font-size: 13px; color: #aab3d9; }
+button { background: linear-gradient(135deg, #06b6d4, #4f46e5); border: none; color: white; padding: 10px 14px; border-radius: 10px; cursor: pointer; font-weight: 600; }
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+.badge { display: inline-block; padding: 4px 8px; border-radius: 999px; font-size: 12px; border: 1px solid #2d3a6b; background: #0c132b; }
+.table { width: 100%; border-collapse: collapse; }
+.table th, .table td { border-bottom: 1px solid #26325f; padding: 8px 6px; text-align: left; font-size: 14px; }
+.small { font-size: 12px; color: #aab3d9; }
+.success { color: #34d399; }
+.error { color: #f87171; }
+.kbd { border: 1px solid #334155; background: #0c132b; border-bottom-width: 3px; border-radius: 6px; padding: 0 6px; font-size: 12px; }
